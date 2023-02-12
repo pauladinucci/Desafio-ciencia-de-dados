@@ -4,3 +4,19 @@
 <br>
 Este desafio tem como objetivo identificar quais máquina apresentam potencial de falha com base em dados extraídos através de sensores durante o processo de manufatura utilizlando dois datasets: desafio_manutencao_preditiva_treino e desafio_manufatura_preditiva_teste. Tendo como objetivo prever a coluna "failure_type" no dataset referente ao desaio_manufatura_preditiva_teste a partir dos dados.
 </div>
+<div>
+Para responder a esta entrega, foram feitas as seguintes especificações:
+<br>
+<br>
+1)Descreva graficamente os dados disponíveis, apresentando as principais estatísticas descritivas. Comente o porquê da escolha dessas estatísticas.
+
+2)Explique como você faria a previsão do tipo de falha a partir dos dados. Quais variáveis e/ou suas transformações você utilizou e por quê? Qual tipo de problema estamos resolvendo (regressão, classificação)? Qual modelo melhor se aproxima dos dados e quais seus prós e contras? Qual medida de performance do modelo foi escolhida e por quê?
+
+3)Envie o resultado final do modelo em uma planilha com apenas duas colunas (rowNumber, predictedValues). 
+4)A entrega deve ser feita através de um repositório de código público que contenha:
+a.README explicando como rodar o projeto
+b.Arquivo requirements com todos os pacotes utilizados
+c.Relatório de EDA em PDF, Jupyter Notebook ou semelhante conforme passo 1
+d.Códigos de modelagem utilizados no passo 2.
+e.Arquivo final predicted.csv conforme passo 3 acima.
+</div>
