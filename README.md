@@ -17,11 +17,21 @@ Para responder a esta entrega, foram feitas as seguintes especificações:
 4)A entrega deve ser feita através de um repositório de código público que contenha:
 a.README explicando como rodar o projeto
 
-b.Arquivo requirements com todos os pacotes utilizados
+b.Arquivo requirements com todos os pacotes utilizados.
 
 c.Relatório de EDA em PDF, Jupyter Notebook ou semelhante conforme passo 1
 
 d.Códigos de modelagem utilizados no passo 2.
 
 e.Arquivo final predicted.csv conforme passo 3 acima.
+</div>
+<div>
+A previsão do tipo de falha foi feita utilizando random forest (ou árvore aleatória), criando árvores de decisão de maneira aleatória onde cada árvore será utilizada no resultado final, em uma espécie de votação.
+Se estabelecem regras para tomada de decisão nas quais o algoritmo cria uma estutura similar a um fluxograma aonde uma condição é verificada, se atendida o fluxo segue por um ramo, caso contrário, por outro, sempre levando o próximo nó, até a finalixação da árvore.
+Com os dados de treino, o algoritmo busca as melhores condições e onde inserir cada uma dentro do fluxo.
+O primeiro passo executado no algoritmo será selecionar aleatoriamente algumas amostras dos dados de treino, não sua totalidade. É utilizado o bootstrap, que é um método de reamostragem onde as amostras são repetidas na seleção. Com esta primeira seleção de amostras será construída a árvore de decisão.
+
+#2-como foi feita a previsao do tipo de falhas(random forest), tranformações de dados feitas e qual tipo de problema? Classificação, pros e contras do modelo. medidas de performance(acuracia e precision)
+
+
 </div>
