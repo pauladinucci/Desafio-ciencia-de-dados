@@ -1,0 +1,7 @@
+-e git+https://github.com/pauladinucci/Desafio-ciencia-de-dados
+
+matplotlib == 3.6.3
+numpy >= 1.17.3
+seaborn == 0.12.2
+pandas == 1.5.3
+scikit-learn == 1.2.1
